@@ -1,0 +1,26 @@
+                                                                 DE-CODE
+Sesuke Uchiha is one of the most intelligent pupil in hidden leaf village. While preparing for math’s exam he noticed that his math notes is full of ink blots. 
+He knows it is obviously done by his best friend Naruto Uzumarki.  Sesuke developed a technique which replaces all ink blots by the string “codemsrit”.
+Here is a Sesuke’s book processed with his new technique. Your task is to recover his notes, which were used to practice some addition problems on 
+positive integers.
+
+INPUT
+First like contains number of test cases T<=100 . Each test case is preceded by blank line.
+
+OUTPUT
+Output must represent a same equation from test case with all missing digits filled in
+                                                  Example
+Input:
+2
+
+8 + codemsrit = 27
+
+codemsrit18 + 15678 = 17096
+
+Output:
+
+8+19=27
+1418+15678=17096
+
+NOTE : Only one part of the equation replaced by the string "codemsrit"
+

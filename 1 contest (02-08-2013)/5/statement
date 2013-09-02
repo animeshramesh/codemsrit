@@ -1,0 +1,44 @@
+Title:Encoder<br>
+<br><br>
+Statement:<br>
+Mr X is a secret agent who likes to encode numbers, he has a very weird way of encoding numbers so that no one (including him) will be able to decode it later (don't ask why!), here is his encoding scheme,<br><br>
+<br>
+Given a number which consisists of 'n' digits, he will reduce it to a <b>single digit</b> number and then map it to one of the alphabets.
+<br><br>
+Here is how he will reduce a number:
+<br><br>
+let's say that the given number is 1234 now he will add all it's digits i.e 1+2+3+4= 10 = 1+0 = 1 now since the sum of the given number's digits is 1 the letter that he will output is 'A' (without quotes).<br><br>
+<br>
+let's consider another example 12345678=1+2+3+4+5+6+7+8=36=3+6=9, which will be mapped to 'I'.<br><br>
+<br><br>
+Mr X is a very busy man, so he has asked you to do the job for him.<br>
+<br>
+Input:<br>
+<br>
+The first line will consist of a number 't', t lines follow,
+each line consists of a number 'n'<br>
+<br>
+Output:<br><br>
+<br>
+In each line, output the final encoded letter.
+<br><br>
+Constraints:
+<br><br>
+t<100<br><br>
+<br>
+n< 10^200
+<br><br>
+
+
+Sample Input:<br>
+4<br>
+1<br>
+1234<br>
+12345678<br>
+8975654412335565456466798645113246<br>
+<br><br>
+Sample output:<br><br>
+A<br>
+A<br>
+I<br>
+C<br>

@@ -1,0 +1,23 @@
+Title: nested palindromes<br>
+<br>
+Sakura, the medical ninja of hidden leaf village masters medical ninjutsu. However, she doesn't want enemy ninja forces to learn about her newly discovered techniques.<br><br>
+So, she plans to create secret scrolls which cannot easily be comprehended by any shinobi other than those of konohagakure.
+Clever Sasuke suggests Sakura that they can mask the medical ninjutsu secrets to great extent by creating all possible palindromes out of her each new technique and scattering them.<br><br>
+Help them do this!<br><br>
+
+Input:<br><br>
+First line contains the number of test cases t, followed by the t number of strings 's' <= 1000, each in its own line.
+<br><br><br>
+Output:<br><br>
+Each line contains the number of different palindromes that can be created using the string 's'.
+<br><br>
+Example:<br><br>
+<br><br>
+Input:<br>
+2<br>
+hokage<br>
+madam<br>
+<br><br>
+output:<br>
+6<br>
+7<br>

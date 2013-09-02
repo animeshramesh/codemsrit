@@ -1,0 +1,29 @@
+Title: unique<br><br>
+
+Statement:<br>
+<br>
+Given a string, output the total number of <b>unique</b> characters you encounter in the string.
+<br><br>
+<b>Note: 'a' and 'A' are different characters</b>
+<br><br>
+Input:<br>
+<br>
+First line contains an integer 't' denoting the number of test cases
+The next 't' lines contain a string 's'<br>
+<br><br>
+Output:<br>
+<br>
+For each case, output the number of unique characters encountered in the string.<br><br>
+<br>
+Constraints:<br>
+<br>
+t<100<br>
+<br>
+size of s<2000<br>
+<br>
+Sample Input:<br>
+1<br>
+This is a very easy question!<br>
+<br><br>
+Sample Output:<br>
+16<br>
