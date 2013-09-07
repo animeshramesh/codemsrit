@@ -1,0 +1,35 @@
+Crash!!
+
+Consider two cars located at points A and B. The cars start moving towards each other and there's a head-on collision at point C.
+Given the distance between A and B as 'D' and their individual speeds S1 and S2, print the distance between A and C 
+
+Assume the following:
+D > 0
+All distances are in metres
+S1 and S2 are measured in metres/second
+S1 is the speed of the car at A and S2 is the speed of the car at point B
+D, S1 and S2 are integers
+
+Input:
+Th number of test cases t.
+The following t lines contain 3 integers each. 
+D S1 S2
+
+Constraints:
+t <= 100
+D <= 10^5
+S1,S2 <= 100
+
+Output:
+For each test case, output a single line printing the distance between A and C in metres.
+Print 4 digits after the decimal.
+
+Example:
+Input:
+2
+100 10 20
+100 20 10
+
+Output:
+33.33
+66.67

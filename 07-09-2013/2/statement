@@ -1,0 +1,24 @@
+Given a lower and an upper limit, calculate the number of prime numbers in the range. (Both upper and lower limits inclusive)
+
+Input:
+The number of test cases t
+The following t lines contains two integers L and U.
+
+Output:
+For each test case, print the number of primes in the range
+
+Constraints:
+1 <= t <= 100
+1 <= L <= 10^6
+1 <= U <= 10^6
+
+Example:
+Input:
+2
+1 10
+12 20
+
+Output:
+4
+3
+

@@ -1,0 +1,31 @@
+Attention!
+
+Its Republic Day and the college is organising a parade. A parade can be successful only if the gap between consecutive students remains constant. Considering the position of the leader at 0 and given the positions of all students, check whether the parade is successful or not.
+Assume only one single queue exists in the parade. Also assume that no two students can occupy the same position.
+
+Input:
+First line of input contains an integer P denoting the number of parades. 
+Each of the following P lines contains an integer S - the number of students participating in the parade.
+The following S number of integers denote the position 'd' of each student in the line with respect to the leader.
+
+Constraints:
+1 <= P <= 100
+1 <= S <= 1000
+1 <= d <= 1000000
+
+Output:
+For each test case, output YES if the parade is successful and NO if the parade is not.
+
+
+Example:
+
+Input:
+2
+5
+2 4 6 8 10
+4
+1 3 5 8
+
+Output:
+YES
+NO

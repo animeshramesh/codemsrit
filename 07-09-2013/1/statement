@@ -1,0 +1,32 @@
+Fire Escape!
+
+Apex Block is on fire! Given the number of classes and the number of students in each class, calculate the total number of students who would be escaping.
+Assume that no student wishes to die. :P
+
+Input:
+First line contains the number of test cases t
+Each test case would contain N, the number of classes in Apex Block
+The next N lines contains the number of students in each class 'p'.
+
+Constraints:
+1 <= t <= 100
+1 <= N <= 100
+1 <= p <= 1000
+
+Output:
+For each test case, output the total number of students escaping.
+
+
+Example:
+Input:
+2
+3
+63 12 154
+4
+47 53 31 65
+
+Output:
+229
+196
+
+
